@@ -1,0 +1,32 @@
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+    background: #E60012;
+    padding: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #444;
+}
+
+footer {
+  background-color: #B0000F;
+  color: white;
+  padding: 1em 0;
+  margin-top: auto;
+  text-align: center;
+}
+
+
